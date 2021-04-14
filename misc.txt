@@ -1,0 +1,10 @@
+def get_primes(start, end):
+    for n in range(start, end):
+        for x in range(start, n):
+            if n % x == 0:
+                print(n, 'equals', x, '*', n//x)
+                break
+        else:
+            print(n, 'is a prime number')
+
+get_primes(2, 25)
