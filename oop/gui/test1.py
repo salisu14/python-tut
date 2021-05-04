@@ -12,7 +12,7 @@ frame.pack(fill=tk.BOTH, expand=True)
 
 
 def click_button1():
-    root.title("I love having fun with my wife.")
+    root.title("I like Python Programming, It's cool!.")
 
 def click_button2():
     root.destroy()
