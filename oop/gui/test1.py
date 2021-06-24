@@ -18,7 +18,7 @@ def click_button2():
     root.destroy()
     
 
-button1.pack()
-exitbtn.pack()
+#button1.pack()
+#exitbtn.pack()
 
 root.mainloop()
